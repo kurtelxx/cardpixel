@@ -1,0 +1,52 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "game",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "classnames": "^2.3.2",
+    "mobx": "^6.8.0",
+    "mobx-react": "^7.6.0",
+    "react": "16.8.4",
+    "react-dom": "16.8.4",
+    "react-router-dom": "^5.3.4"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^7.0.0",
+    "@types/node": "^18.15.9",
+    "@types/react": "16.8.8",
+    "@types/react-dom": "16.8.2",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/webpack": "^5.28.0",
+    "@webpack-cli/generators": "^3.0.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "declaration-bundler-webpack-plugin": "^1.0.3",
+    "html-webpack-plugin": "^5.5.0",
+    "less": "^4.1.3",
+    "less-loader": "^11.1.0",
+    "mini-css-extract-plugin": "^2.7.5",
+    "prettier": "^2.8.7",
+    "style-loader": "^3.3.2",
+    "svg-react-loader": "^0.4.6",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.2",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
+  },
+  "scripts": {
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

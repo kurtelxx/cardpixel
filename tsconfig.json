@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "useDefineForClassFields": true,
+    "module": "es6",
+    "target": "ES6",
+    "allowJs": true,
+    "baseUrl": ".",
+    "typeRoots": ["./node_modules/@types"],
+    "moduleResolution": "node",
+    "paths": {
+      "*": ["node_modules/*"]
+    }
+  },
+  "files": ["src/index.tsx"],
+  "include": ["src/**/*", "src/custom.d.ts"]
+}
